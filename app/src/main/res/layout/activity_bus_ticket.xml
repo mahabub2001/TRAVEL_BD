@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    tools:context=".BusTicketActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@color/teal_700">
+
+            <TextView
+                android:id="@+id/textView_form_fillup_head"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:text="Bus Ticket"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <TextView
+                android:id="@+id/textView_register_instruction"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView_form_fillup_head"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Fill up the form to purchase your ticket. "
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Menu"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="-50dp"
+            android:background="@drawable/border"
+            android:padding="15dp"
+
+            >
+
+            <RelativeLayout
+                android:id="@+id/RL_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:id="@+id/textView_name"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:text="Passenger Name"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/editText_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+
+                    android:layout_below="@id/textView_name"
+                    android:padding="6dp"
+                    android:layout_marginTop="6dp"
+                    android:hint="Name"
+                    android:textAlignment="center" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RL_nid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/RL_name"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:id="@+id/textView_nid"
+                    android:layout_width="match_parent"
+                    android:textColor="@color/black"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:text="Enter NID no"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/editText_nid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:inputType="number"
+
+                    android:layout_below="@id/textView_nid"
+                    android:padding="6dp"
+                    android:layout_marginTop="6dp"
+                    android:hint="Type Your NID No"
+                    android:textAlignment="center" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RL_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/RL_nid"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:id="@+id/textView_from"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="From where"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/spinnerFrom"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_below="@id/textView_from"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:padding="6dp"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RL_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/RL_from"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:id="@+id/textView_to"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="To where"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/spinnerto"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_below="@id/textView_to"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:padding="6dp"
+                    android:textColor="@color/black" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RL_bus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/RL_to"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:id="@+id/textView_busname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="6dp"
+                    android:textColor="@color/black"
+                    android:text="Ticket Number"
+                    android:textAlignment="center" />
+
+                <EditText
+                    android:id="@+id/spinnerticketnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_below="@id/textView_busname"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginEnd="6dp"
+                    android:layout_marginBottom="6dp"
+                    android:padding="6dp"
+                    android:textColor="@color/black" />
+
+
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+
+    </LinearLayout>
+
+</ScrollView>

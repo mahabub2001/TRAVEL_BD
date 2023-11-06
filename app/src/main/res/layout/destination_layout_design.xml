@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#0C368A"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true"
+        android:layout_width="match_parent"
+        app:cardElevation="5dp"
+        app:cardMaxElevation="6dp"
+        app:cardCornerRadius="8dp"
+        android:background="@color/light_blue_A400"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:layout_height="130dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="1.9"
+                android:background="@color/grey_10"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:scaleType="fitXY"
+                    android:layout_margin="5dp"
+                    android:id="@+id/imageId2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:background="@color/grey_10"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="1.1"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/titleId2"
+                    android:textStyle="bold"
+                    android:textSize="23sp"
+                    android:textColor="#063567"
+                    android:textColorHighlight="#EB9EE10D"
+                    android:layout_width="wrap_content"
+                    android:text="STAR"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:id="@+id/descriptionId2"
+                    android:textStyle="bold"
+                    android:textColor="#070707"
+                    android:textSize="17sp"
+                    android:layout_width="wrap_content"
+                    android:text="এই টুরিস্ট স্পটটি সম্পর্কে জানতে......"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,158 @@
+<resources>
+
+
+    <string-array name="divission_name">
+
+        <item> Dhaka </item>
+        <item> Chittagong </item>
+        <item> Rajshahi </item>
+        <item> Sylhet </item>
+        <item> Mymensingh </item>
+        <item> Barisal</item>
+        <item> Rangpur</item>
+        <item> Khulna </item>
+
+
+    </string-array>
+
+    <string name="national_museum">
+
+        Naitonal Museum.
+    </string>
+
+
+    <string-array name="dhaka_district_name">
+
+        <item> ঢাকা জেলা </item>
+        <item> গাজীপুর জেলা </item>
+        <item> কিশোরগঞ্জ জেলা </item>
+        <item> মানিকগঞ্জ জেলা </item>
+        <item> মুন্সিগঞ্জ জেলা </item>
+        <item> নারায়ণগঞ্জ জেলা </item>
+        <item> নরসিংদী জেলা </item>
+        <item> টাঙ্গাইল জেলা </item>
+        <item> ফরিদপুর জেলা </item>
+        <item> মাদারীপুর জেলা </item>
+        <item> রাজবাড়ি জেলা </item>
+        <item> শরিয়তপুর জেলা </item>
+        <item> গোপালগঞ্জ জেলা </item>
+
+
+    </string-array>
+
+
+    <string-array name="chittagong_district_name">
+
+        <item>চট্টগ্রাম জেলা</item>
+        <item>কক্সবাজার জেলা</item>
+        <item>খাগড়াছড়ি জেলা</item>
+        <item>বান্দরবান জেলা</item>
+        <item>রাঙ্গামাটি জেলা</item>
+        <item>লক্ষ্মীপুর জেলা</item>
+        <item>চাঁদপুর জেলা</item>
+        <item>ফেনী জেলা</item>
+        <item>ব্রাহ্মণবাড়িয়া</item>
+        <item>নোয়াখালী জেলা</item>
+        <item>কুমিল্লা জেলা</item>
+
+    </string-array>
+
+    <string-array name="rajshahi_district_name">
+
+        <item>রাজশাহী জেলা</item>
+        <item>নওগাঁ জেলা</item>
+        <item>সিরাজগঞ্জ জেলা</item>
+        <item>পাবনা জেলা</item>
+        <item>বগুড়া জেলা</item>
+        <item>জয়পুরহাট জেলা</item>
+        <item>চাঁপাইনবাবগঞ্জ জেলা</item>
+        <item>নাটোর জেলা</item>
+
+    </string-array>
+
+    <string-array name="sylhet_district_name">
+
+        <item>সিলেট জেলা</item>
+        <item>মৌলভীবাজার জেলা</item>
+        <item>হবিগঞ্জ জেলা</item>
+        <item>সুনামগঞ্জ জেলা</item>
+
+
+    </string-array>
+
+
+    <string-array name="mymensingh_district_name">
+
+        <item>ময়মনসিংহ জেলা</item>
+        <item>শেরপুর জেলা</item>
+        <item>জামালপুর জেলা</item>
+        <item>নেত্রকোণা জেলা</item>
+
+    </string-array>
+
+    <string-array name="barisal_district_name">
+
+        <item>বরিশাল জেলা</item>
+        <item>পটুয়াখালী জেলা</item>
+        <item>পিরোজপুর জেলা</item>
+        <item>ভোলা জেলা</item>
+        <item>ঝালকাঠি জেলা</item>
+        <item>বরগুনা জেলা</item>
+
+    </string-array>
+
+    <string-array name="khulna_district_name">
+
+        <item>খুলনা জেলা</item>
+        <item>বাগেরহাট জেলা</item>
+        <item>চুয়াডাঙ্গা জেলা</item>
+        <item>যশোর জেলা</item>
+        <item>মেহেরপুর জেলা</item>
+        <item>নড়াইল জেলা</item>
+        <item>কুষ্টিয়া জেলা</item>
+        <item>মাগুরা জেলা</item>
+        <item>ঝিনাইদহ জেলা</item>
+        <item>সাতক্ষীরা জেলা </item>
+
+    </string-array>
+
+    <string-array name="rangpur_district_name">
+        <item>রংপুর জেলা</item>
+        <item>দিনাজপুর জেলা</item>
+        <item>গাইবান্ধা জেলা</item>
+        <item>কুড়িগ্রাম জেলা</item>
+        <item>লালমনিরহাট জেলা</item>
+        <item>নীলফামারী জেলা</item>
+        <item>পঞ্চগড় জেলা</item>
+
+    </string-array>
+
+    <string name="About_us">
+
+        TravelBD is an application to solve all the problems of travel at any place in Bangladesh.Its an important issue for travelers to travel to any place safely.In traveling there are 3 major issues that are information about tourist spots, transport service and hotel service for travelers.So, we focus on these three problems and solve them. The major features of this app are information about tourist apps, transport issues and hotel service providing features.We hope it will be very helpful for travelers.
+
+
+    </string>
+
+    <string name="app_name">Travel BD</string>
+    <string name="open"></string>
+    <string name="close"></string>
+
+    <string name="resortname">Resort name</string>
+    <string name="address">Address</string>
+    <string name="phone">Phone</string>
+    <string name="mail">Mail</string>
+    <string name="resortpicupload">Resort pic upload</string>
+
+    <string-array name="dhaka_district_destination_name">
+
+        <item>National Museaum</item>
+        //<item>Ahsan Mojil</item>
+    </string-array>
+
+    <string name="national">
+
+        The Museum was established in 1913 is a four storied building with forty galleries under its 4 departments of natural history, History and Classical Art, Ethnography and decorative art and Contemporary art and World civilization.
+    </string>
+
+</resources>

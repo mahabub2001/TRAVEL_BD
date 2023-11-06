@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DistrictPageActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="650dp">
+
+
+        <LinearLayout
+            android:gravity="center"
+            android:weightSum="2"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="240dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/descriptionID"
+                android:layout_weight="1"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#FBF3F3"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/description"
+                    android:layout_margin="40dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:textSize="25sp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Description"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/documentaryID"
+                android:layout_weight="1"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="#FBF3F3"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/documentary"
+                    android:layout_margin="40dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:textSize="22sp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Documentery"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_height="240dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                app:cardElevation="10dp"
+                android:id="@+id/mapID"
+                app:cardMaxElevation="12dp"
+                app:cardCornerRadius="20dp"
+                app:cardBackgroundColor="@color/white"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/map"
+                    android:layout_margin="40dp"
+                    android:layout_height="100dp"/>
+                <TextView
+                    android:textSize="25sp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Map"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                app:cardPreventCornerOverlap="true"
+                android:layout_weight="1"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/contactID"
+                app:cardBackgroundColor="@color/white"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="140dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/communicate"
+                    android:layout_margin="40dp"
+                    android:layout_height="140dp"/>
+                <TextView
+                    android:textSize="25sp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Contact"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_weight="1"
+                app:cardPreventCornerOverlap="true"
+                app:cardUseCompatPadding="true"
+                android:layout_width="match_parent"
+                app:cardElevation="10dp"
+                app:cardMaxElevation="12dp"
+                app:cardCornerRadius="20dp"
+                android:id="@+id/transportID"
+                app:cardBackgroundColor="@color/white"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/goal"
+                    android:layout_margin="40dp"
+                    android:layout_height="120dp"/>
+                <TextView
+                    android:textSize="25sp"
+                    android:layout_gravity="bottom|center_horizontal"
+                    android:text="Challenge"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_bar"
+        android:background="@drawable/shape_icon"
+        app:itemIconTint="@drawable/selector_set"
+        app:itemTextColor="@drawable/selector_set"
+
+
+        />
+
+
+</LinearLayout>

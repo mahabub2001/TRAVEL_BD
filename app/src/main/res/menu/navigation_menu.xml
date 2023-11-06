@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item android:title="">
+            <menu>
+                <item
+                    android:id="@+id/mProfile"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/mHome"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Home" />
+
+                <item
+                    android:id="@+id/mCart"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Cart" />
+
+                <item
+                    android:id="@+id/mPending"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Pending" />
+                <item
+                    android:id="@+id/mUploadp"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Upload" />
+                <item
+                    android:id="@+id/myResorts"
+                    android:icon="@drawable/ic_menu"
+                    android:title="My Resorts" />
+
+                <item
+                    android:id="@+id/mRate"
+                    android:icon="@drawable/ic_menu"
+                    android:title="Rate This App" />
+
+            </menu>
+
+        </item>
+
+    </group>
+
+<!--    <group-->
+<!--        android:id="@+id/group2"-->
+<!--        android:checkableBehavior="single">-->
+<!--        <item android:title="More App">-->
+
+<!--            <menu>-->
+<!--                <item-->
+<!--                    android:id="@+id/shareapp"-->
+<!--                    android:icon="@drawable/ic_menu"-->
+<!--                    android:title="Share App" />-->
+
+<!--                <item-->
+<!--                    android:id="@+id/Policy"-->
+<!--                    android:icon="@drawable/ic_menu"-->
+<!--                    android:title="Policy" />-->
+<!--            </menu>-->
+
+<!--        </item>-->
+
+<!--    </group>-->
+
+</menu>
